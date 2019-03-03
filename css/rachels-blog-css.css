@@ -1,0 +1,141 @@
+/* Bootstrap CSS Overrides for Rachel's Blog */
+
+@font-face {
+    font-family: 'Bradley';
+    src: url('../fonts/Bradley Pro/profonts\ -\ BradleyPro.ttf') format('truetype');
+}
+
+/*
+=====Global Styles=====
+*/
+
+body {
+    background: #FBFBF8;
+    color: #3c3c3c;
+    font-family: adobe-garamond-pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+}
+
+
+/* 
+===== Navigation =====
+*/
+
+a {
+    color: #3c3c3c;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+#Brandname:hover {
+    color: #3c3c3c;
+}
+
+.abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar {
+    margin: 48px;
+}
+
+/* Breakpoint corresponds to Bootstrap md */
+@media (max-width: 768px) {
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 45px;
+        height: 150px;
+        margin: 0;
+    }
+    .navbar-nav {
+        margin: 120px auto auto 0;
+    }
+}
+
+
+/*
+===== Header/Main Picture =====
+*/
+
+#MainImg img{
+    max-width: 100%;	
+}
+
+
+/*
+===== Text =====
+*/
+h1 {
+    font-size: 4rem;
+    font-family: Bradley;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: Bradley;
+    margin-top: 60px;
+}
+
+h3 {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+p {
+    text-align: justify;
+}
+
+#Text .newspaper {
+    margin-bottom: 30px;
+}
+
+/* Breakpoint corresponds to Bootstrap md */
+@media (min-width: 768px) {
+    .newspaper {
+        column-count: 2;
+        column-gap: 40px;
+    }
+}
+
+
+/*
+===== Photo Area =====
+*/
+
+.Landscape {
+    max-width: 100%;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+.Portrait {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.Left {
+    align-self: flex-start;
+    padding-right: 2px;
+}
+
+.Right {
+    align-self: flex-end;
+    padding-left: 2px;
+}
+
+/* Breakpoint corresponds to Bootstrap sm */
+@media (min-width: 576px) {
+    .Portrait {
+        max-width: 50%;
+    }
+}

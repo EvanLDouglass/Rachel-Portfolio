@@ -1,0 +1,113 @@
+<!-- This document is a sample blog post page -->
+<!doctype html>
+<html lang="en-US">
+  	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+		<!-- Override CSS-->
+		<link rel="stylesheet" href="css/rachels-blog-css.css">
+
+		<!-- Page Title -->
+		<title>Subject Name Here</title>
+	</head>
+	  
+  	<body>
+		<!--Logo and Navigation Bar-->
+		<nav class="navbar navbar-expand" id="Top">
+			<div class="container">
+				
+				<a href="./index.html" class="abs-center-x" id="Brandname">
+					<h1>skin&nbsp;&amp;&nbsp;gold</h1>
+				</a>
+				
+				<div class="navbar-nav ml-auto">
+					<a class="nav-item nav-link p-3" href="#">Archive</a>
+					<span class="navbar-text py-3">|</span>
+					<a class="nav-item nav-link p-3" href="#">About</a>
+				</div> <!--/navbar-nav-->
+
+			</div> <!--/container-->
+		</nav>
+		<!--/Logo and Navigation Bar-->
+
+
+		<!-- Main Photo -->
+		<header>
+			<div class="container-flex justify-content-center align-items-center" id="MainImg">
+				<!--Responsive main image - media queries relate to Bootstrap xl, l, md breakpoints.
+					Create 3 versions of main pic: full size, 1199px, 995px (by width).
+					Insert smallest to largest in srcset followed by width (e.g. pics/pic.jpeg 1199w).
+					Leave sizes as is. Insert full size img to src (default).-->
+				<img srcset="pics/testSmall.jpeg 640w,
+							pics/galaxy.jpeg 900w,
+							pics/pexels-photo-1118866.jpeg 1920w"
+					 sizes="(min-width: 768px) 100vw,
+							(min-width: 996px) 100vw,
+							(min-width: 1200px) 100vw"
+					 src="pics/pexels-photo-1118866.jpeg" alt="Main Image">
+			</div>
+		</header>
+		<!--/Main Photo-->
+
+
+		<!-- Text area -->
+		<div class="container">
+			<section id="Text">
+				<h2 class="text-center pb-1">Subject Name</h2>
+				<h3 class="text-center text-uppercase">Subheading</h3>
+				<div class="newspaper">
+					<!--flows into two columns above sm breakpoint-->
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div> <!--/newspaper-->
+			</section>
+			<!--/Text area-->
+
+
+			<!-- Photos -->
+			<section id="Photos">
+
+				<!-- Copy & paste this div to add another landscape photo -->
+				<div class="row justify-content-center">
+					<img class="Landscape" src="pics/test1.jpeg" alt="Landscape Photograph">
+				</div>
+
+				<!-- Copy & paste this div to add two more portrait photos -->
+				<div class="row justify-content-center">
+					<img class="Portrait Left" src="pics/test2.jpeg" alt="Portrait Photograph">
+					<img class="Portrait Right" src="pics/test2.jpeg" alt="Portrait Photograph">
+				</div>
+
+				<div class="row justify-content-center">
+					<img class="Landscape" src="pics/testSmall.jpeg">
+				</div>
+
+				<div class="row justify-content-center">
+					<img class="Portrait Left" src="pics/testSmallVert.jpeg">
+					<img class="Portrait Right" src="pics/testSmallVert2.jpeg">
+				</div>
+				
+			</section>
+			<!--/Photos-->
+
+	
+			<!-- Footer creates space below the final picture -->
+			<footer>
+				<div class="row justify-content-center">
+					<p><a href="#Top">top</a></p>
+				</div>
+			</footer>
+			
+		</div> <!--/container-->
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  	</body>
+</html>
