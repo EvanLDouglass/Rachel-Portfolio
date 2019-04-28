@@ -1,4 +1,5 @@
-# SkinAndGold
-A blog project to learn full-stack web development.
+# Rachel's Portfolio
+This project was created as a portfolio website for graphic designer Rachel Lattanzi.
 
-The current state of this project is a static webpage using HTML and CSS with Bootstrap. It is a template page for blog posts using placeholder text and images. I intend to build up a full website using Python's Django framework.
+Current state: Two template files that will be edited as needed for individual projects.
+The homepage is waiting for content

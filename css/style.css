@@ -6,7 +6,9 @@
 }
 
 /*
-=====Global Styles=====
+    ===================
+    Global Styles
+    ===================
 */
 
 body {
@@ -20,6 +22,41 @@ body {
     letter-spacing: 0.03em;
 }
 
+/*
+===== Text =====
+*/
+h1 {
+    font-size: 4rem;
+    font-family: Bradley;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: Bradley;
+    margin-top: 60px;
+}
+
+h3 {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+p {
+    text-align: justify;
+}
+
+#Text .newspaper {
+    margin-bottom: 30px;
+}
+
+/* Breakpoint corresponds to Bootstrap md */
+@media (min-width: 768px) {
+    .newspaper {
+        column-count: 2;
+        column-gap: 40px;
+    }
+}
 
 /* 
 ===== Navigation =====
@@ -61,52 +98,29 @@ a:hover {
     }
 }
 
+/* 
+    ===========================
+    Homepage Styles
+    ===========================
+*/
+
+.card-img-top {
+    padding: 3px;
+}
+
+/* 
+    ===========================
+    Project Pages Styles
+    ===========================
+*/
 
 /*
 ===== Header/Main Picture =====
 */
 
-#MainImg img{ 
-    max-width: 100%;	
+#MainImg img{
+    max-width: 100vw;
 }
-
-
-/*
-===== Text =====
-*/
-h1 {
-    font-size: 4rem;
-    font-family: Bradley;
-}
-
-h2 {
-    font-size: 3rem;
-    font-family: Bradley;
-    margin-top: 60px;
-}
-
-h3 {
-    font-size: 1rem;
-    margin-bottom: 30px;
-    letter-spacing: 5px;
-}
-
-p {
-    text-align: justify;
-}
-
-#Text .newspaper {
-    margin-bottom: 30px;
-}
-
-/* Breakpoint corresponds to Bootstrap md */
-@media (min-width: 768px) {
-    .newspaper {
-        column-count: 2;
-        column-gap: 40px;
-    }
-}
-
 
 /*
 ===== Photo Area =====
