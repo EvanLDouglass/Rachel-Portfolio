@@ -39,7 +39,9 @@ html, body {
 	<div class="d-flex justify-content-center" id="HomeImg">
 		<!--This is the responsive header image-->
         <picture>
+            <!-- Small screen image goes here. -->
             <source media="(max-width: 992px)" srcset="images/test2.jpeg" alt="Main Image">
+            <!-- Desktop image here. -->
             <img src="images/pexels-photo-1118866.jpeg" alt="Main Image">
         </picture>
 	</div>
