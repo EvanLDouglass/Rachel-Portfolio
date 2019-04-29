@@ -4,81 +4,48 @@
 -->
 <?php
 	include 'inc/head.html';
-	include 'inc/nav.html';
 ?>
 
+<style type="text/css">
+html, body {
+  overflow: hidden;
+}
+</style>
+
+<!--
+    Logo and Navigation Bar
+    This is repeated here due to the "fixed-top" class
+    for the nav tag.
+-->
+<nav class="navbar navbar-expand fixed-top">
 <div class="container">
-	<div class="row">
-		<div class="col-sm">
-			<!-- Card -->
-			<div class="card">
-				<img src="images/testSmall.jpeg" class="card-img-top" alt="...">
-				<div class="card-body">
-					<h4 class="card-title">Card Title</h4>
-					<h5 class="card-subtitle">Card subtitle</h5>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item">Cras justo odio</li>
-						<li class="list-group-item">Dapibus ac facilisis in</li>
-						<li class="list-group-item">Vestibulum at eros</li>
-					</ul>
-				</div>
-			</div>  <!-- /card -->
-		</div>  <!-- /col -->
+    <a href="./index.php" class="abs-center-x" id="Brandname">
+        <h1>Rachel&nbsp;Lattanzi</h1>
+    </a>
 
-		<div class="col-sm">
-			<!-- Card -->
-			<div class="card">
-				<img src="images/testSmall.jpeg" class="card-img-top" alt="...">
-				<div class="card-body">
-					<h4 class="card-title">Card Title</h4>
-					<h5 class="card-subtitle">Card subtitle</h5>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item">Cras justo odio</li>
-						<li class="list-group-item">Dapibus ac facilisis in</li>
-						<li class="list-group-item">Vestibulum at eros</li>
-					</ul>
-				</div>
-			</div>  <!-- /card -->
-		</div>  <!-- /col -->
+    <div class="navbar-nav ml-lg-auto">
+        <a class="nav-item nav-link p-2" href="work.php">Work</a>
+        <span class="navbar-text py-2">|</span>
+        <a class="nav-item nav-link p-2" href="#">Resume</a>
+        <span class="navbar-text py-2">|</span>
+        <a class="nav-item nav-link p-2" href="#">Contact</a>
+    </div> <!--/navbar-nav-->
+</div>
+</nav>
+<!--/Logo and Navigation Bar-->
 
-		<div class="col-sm">
-			<!-- Card -->
-			<div class="card">
-				<img src="images/testSmall.jpeg" class="card-img-top" alt="...">
-				<div class="card-body">
-					<h4 class="card-title">Card Title</h4>
-					<h5 class="card-subtitle">Card subtitle</h5>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item">Cras justo odio</li>
-						<li class="list-group-item">Dapibus ac facilisis in</li>
-						<li class="list-group-item">Vestibulum at eros</li>
-					</ul>
-				</div>
-			</div>  <!-- /card -->
-		</div>  <!-- /col -->
+<!-- Main Photo -->
+<header>
+	<div class="d-flex justify-content-center" id="HomeImg">
+		<!--This is the responsive header image-->
+        <picture>
+            <source media="(max-width: 992px)" srcset="images/test2.jpeg" alt="Main Image">
+            <img src="images/pexels-photo-1118866.jpeg" alt="Main Image">
+        </picture>
+	</div>
+</header>
+<!--/Main Photo-->
 
-		<div class="col-sm">
-			<!-- Card -->
-			<div class="card">
-				<img src="images/testSmall.jpeg" class="card-img-top" alt="...">
-				<div class="card-body">
-					<h4 class="card-title">Card Title</h4>
-					<h5 class="card-subtitle">Card subtitle</h5>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item">Cras justo odio</li>
-						<li class="list-group-item">Dapibus ac facilisis in</li>
-						<li class="list-group-item">Vestibulum at eros</li>
-					</ul>
-				</div>
-			</div>  <!-- /card -->
-		</div>  <!-- /col -->
-	</div>  <!-- /row -->
-</div> <!-- /container -->
-
-<?php 
+<?php
 	include 'inc/end.html';
 ?>

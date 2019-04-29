@@ -2,6 +2,7 @@
 	This document is a sample project page for Rachel Lattanzi's portfolio
 	Author: Evan Douglass
 -->
+
 <?php
 	include 'inc/head.html';
 	include 'inc/nav.html';
@@ -9,8 +10,8 @@
 
 <!-- Main Photo -->
 <header>
-	<div class="d-flex justify-content-center" id="MainImg">
-		<!--This is the Showcase image-->
+	<div id="MainImg">
+		<!--This is the header image-->
 		<img src="images/pexels-photo-1118866.jpeg" alt="Main Image">
 	</div>
 </header>
@@ -22,6 +23,7 @@
 		<h2 class="text-center pb-1">Subject Name</h2>
 		<h3 class="text-center text-uppercase">Subheading</h3>
 		<div class="newspaper">
+			<!--Enter text here in paragraph tags-->
 			<!--flows into two columns above sm breakpoint-->
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

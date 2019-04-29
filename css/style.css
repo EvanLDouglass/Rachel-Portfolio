@@ -85,8 +85,14 @@ a:hover {
     margin: 48px;
 }
 
-/* Breakpoint corresponds to Bootstrap md */
-@media (max-width: 768px) {
+/*
+Breakpoint corresponds to Bootstrap lg
+This section controls the behavior of the navbar links.
+It will center them under the heading and adjust margins.
+The behavior of the links above this breakpoint is controlled
+by Bootstrap in the HTML.
+*/
+@media (max-width: 992px) {
     .navbar {
         padding-top: 0;
         padding-bottom: 45px;
@@ -94,13 +100,23 @@ a:hover {
         margin: 0;
     }
     .navbar-nav {
-        margin: 120px auto auto 0;
+        margin: 120px auto auto auto;
     }
 }
 
 /* 
     ===========================
-    Homepage Styles
+    Home Page Styles
+    ===========================
+*/
+/* #HomeImg {
+    display:block;
+    margin:auto;
+} */
+
+/* 
+    ===========================
+    Work Page Styles
     ===========================
 */
 
@@ -119,7 +135,8 @@ a:hover {
 */
 
 #MainImg img{
-    max-width: 100vw;
+    max-width: 100%;
+    height: auto;
 }
 
 /*
