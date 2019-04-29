@@ -22,13 +22,13 @@ html, body {
     <a href="./index.php" class="abs-center-x" id="Brandname">
         <h1>Rachel&nbsp;Lattanzi</h1>
     </a>
-
+    <!-- The behavior of this section below the lg breakpoint is controlled in css. -->
     <div class="navbar-nav ml-lg-auto">
-        <a class="nav-item nav-link p-2" href="work.php">Work</a>
-        <span class="navbar-text py-2">|</span>
-        <a class="nav-item nav-link p-2" href="#">Resume</a>
-        <span class="navbar-text py-2">|</span>
-        <a class="nav-item nav-link p-2" href="#">Contact</a>
+        <a class="nav-item nav-link p-3" href="work.php">Work</a>
+        <span class="navbar-text py-3">|</span>
+        <a class="nav-item nav-link p-3" href="#">Resume</a>
+        <span class="navbar-text py-3">|</span>
+        <a class="nav-item nav-link p-3" href="#">Contact</a>
     </div> <!--/navbar-nav-->
 </div>
 </nav>
